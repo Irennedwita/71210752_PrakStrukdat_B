@@ -58,7 +58,7 @@ class RakBuku:
         return False
 
     def printAll(self):
-        print('='*14, 'Buku Telephone', '=' *14)
+        print('='*17, 'List Buku', '=' *17)
         for item in self.map:
             if item is not None:
                 if isinstance(item,list):
